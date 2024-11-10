@@ -1,0 +1,19 @@
+{
+  "name": "comp.cs.200",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.8.2"
+  },
+  "dependencies": {
+    "@types/node": "^22.9.0",
+    "node": "^22.11.0"
+  }
+}
