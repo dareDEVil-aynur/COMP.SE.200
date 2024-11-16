@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "coverage": "nyc mocha",
+    "coverage": "nyc --check-coverage mocha",
     "coverage-report": "nyc report --reporter=text-lcov > coverage.lcov && coveralls < coverage.lcov"
   },
   "keywords": [],
