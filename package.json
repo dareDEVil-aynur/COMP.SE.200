@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "nyc mocha",
+    "coverage-report": "nyc report --reporter=text-lcov > coverage.lcov && coveralls < coverage.lcov"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^10.8.2"
+    "coveralls": "^3.1.1",
+    "mocha": "^10.8.2",
+    "nyc": "^17.1.0"
   },
   "dependencies": {
     "@types/node": "^22.9.0",
