@@ -28,3 +28,11 @@ jobs:
 
     - name: Run tests
       run: npm test
+
+    - name: Generate coverage report
+      run: npm run coverage
+
+    - name: Upload coverage to Coveralls
+      run: npm run coverage-report
+      env:
+        COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
