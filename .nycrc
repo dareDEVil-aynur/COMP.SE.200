@@ -1,6 +1,6 @@
 {
-  "include": ["src/add.js", "src/capitalize.js", "src/ceil.js", "src/difference.js", "src/endsWith.js"],
-  "exclude": ["node_modules", "src/.internal", "coverage"],
+  "include": ["src/add.js", "src/capitalize.js", "src/ceil.js", "src/difference.js", "src/endsWith.js", "src/filter.js"],
+  "exclude": ["node_modules", "src/.internal", "coverage", "test"],
   "reporter": ["lcov", "text"],
   "all": true,
   "check-coverage": true,
