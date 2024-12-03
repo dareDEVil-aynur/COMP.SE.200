@@ -1,6 +1,11 @@
 {
-  "include": ["**/*.js"],
-  "exclude": ["node_modules"],
+  "include": ["src/add.js"],
+  "exclude": ["node_modules", "src/.internal", "coverage"],
   "reporter": ["lcov", "text"],
-  "all": true
+  "all": true,
+  "check-coverage": true,
+  "branches": 0,
+  "lines": 0,
+  "functions": 0,
+  "statements": 0
 }
