@@ -5,16 +5,16 @@
   "type": "module",
   "scripts": {
     "test": "mocha \"test/**/*.test.js\"",
-    "coverage": "nyc --check-coverage mocha \"test/**/*.test.js\"",
-    "coverage-report": "nyc report --reporter=text-lcov > coverage.lcov && coveralls < coverage.lcov"
+    "coverage": "c8 mocha \"test/**/*.test.js\"",
+    "coverage-report": "c8 report --reporter=text-lcov > coverage.lcov && coveralls < coverage.lcov"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "c8": "^10.1.2",
     "coveralls": "^3.1.1",
-    "mocha": "^10.8.2",
-    "nyc": "^17.1.0"
+    "mocha": "^10.8.2"
   },
   "dependencies": {
     "@types/node": "^22.9.0",
