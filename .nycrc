@@ -1,10 +1,10 @@
 {
-  "include": ["src/add.js"],
+  "include": ["src/add.js", "src/capitalize.js"],
   "exclude": ["node_modules", "src/.internal", "coverage"],
   "reporter": ["lcov", "text"],
   "all": true,
   "check-coverage": true,
-  "branches": 0,
+  "branches": 90,
   "lines": 0,
   "functions": 0,
   "statements": 0
