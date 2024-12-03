@@ -1,5 +1,5 @@
 {
-  "include": ["src/add.js", "src/capitalize.js", "src/ceil.js", "src/difference.js"],
+  "include": ["src/add.js", "src/capitalize.js", "src/ceil.js", "src/difference.js", "src/endsWith.js"],
   "exclude": ["node_modules", "src/.internal", "coverage"],
   "reporter": ["lcov", "text"],
   "all": true,
