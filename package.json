@@ -2,10 +2,10 @@
   "name": "comp.cs.200",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "mocha",
-    "coverage": "nyc --check-coverage mocha",
+    "test": "mocha \"test/**/*.test.js\"",
+    "coverage": "nyc --check-coverage mocha \"test/**/*.test.js\"",
     "coverage-report": "nyc report --reporter=text-lcov > coverage.lcov && coveralls < coverage.lcov"
   },
   "keywords": [],
